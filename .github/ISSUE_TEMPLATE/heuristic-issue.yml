@@ -1,0 +1,92 @@
+name: Heuristic Evaluation Issue
+description: Skrá usability-vandamal skv. Nielsen heuristics
+title: "[HEURISTIC] Stutt lýsing"
+labels:
+  - usability
+  - heuristic
+
+body:
+  - type: dropdown
+    id: heuristic
+    attributes:
+      label: Hvaða heuristic á þetta við?
+      options:
+        - Visibility & Feedback
+        - Match to real world
+        - User control & error prevention
+        - Consistency & standards
+        - Recognition over recall
+        - Flexibility & efficiency
+        - Aesthetics & minimalism
+      description: Veldu flokk sem á best við.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Alvarleiki
+      options:
+        - severity:1 - minor
+        - severity:2 - low
+        - severity:3 - medium
+        - severity:4 - high
+        - severity:5 - critical
+      description: Veldu alvarleika.
+    validations:
+      required: true
+
+  - type: input
+    id: linked_task
+    attributes:
+      label: Tengt task (nr úr TASKS.md)
+      placeholder: "1"
+      description: Sláðu inn task-numer sem tengist þessu issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Samhengi / task og síður
+      placeholder: 'Daemi: "Leita að vöru og setja i körfu" a /search og /product'
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Skref til ad endurskapa
+      placeholder: "1) Opna /search  2) Sláðu inn ...  3) ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Raunveruleg hegðun (observed)
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Æskileg hegðun (expected)
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Tillaga ad úrbótum (optional)
+      placeholder: Stutt lausn eða hugmynd að betrumbót.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: evidence
+    attributes:
+      label: Sönnunargogn (optional)
+      options:
+        - label: Skjámynd eða video fylgir (draga & sleppa neðan)
+
