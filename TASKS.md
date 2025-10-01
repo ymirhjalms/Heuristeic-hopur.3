@@ -12,7 +12,7 @@ Skráið 5–7 notendaverkefni (tasks) sem þið notið við rýnina. Númerið 
 | 2 | Verð        |Finna Hvað Gull Lite bjór kostar    |                             |
 | 3 | Staðsetning |Finna nákvæma staðsetningu á verslun|                             |
 | 4 | Innskráning |Skrá sig inn á sinn aðgang          |                             |
-| 5 | Víntegundir |Finna vín sem hentar fyrir matinn   |                             |
+| 5 | Vínval      |Finna vín sem hentar fyrir fisk     |                             |
 | 6 | Kassaverð   |Finna verð á kassa af Bola          |                             |
 | 7 |             |                                    |                             |
 
