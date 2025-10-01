@@ -10,8 +10,8 @@ Skráið 5–7 notendaverkefni (tasks) sem þið notið við rýnina. Númerið 
 |---|-------------|------------------------------------|-----------------------------|
 | 1 | Opnunartími | Finna opnunartíma á Egilstöðum     |                             |
 | 2 | Verð        |Finna Hvað Gull Lite bjór kostar    |                             |
-| 3 | Staðsetning |Finna nákvæma staðsetningu á verslun|                             |
-| 4 | Innskráning |Skrá sig inn á sinn aðgang          |                             |
+| 3 | Staðsetning |Finna nákvæma staðsetningu á verslun|Vínbúðin opnunartímar og staðsetningar vínbúða|
+| 4 | Innskráning |Skrá sig inn á sinn aðgang          |Vínbúðin og innskráning      |
 | 5 | Vínval      |Finna vín sem hentar fyrir fisk     |                             |
 | 6 | Kassaverð   |Finna verð á kassa af Bola          |                             |
 | 7 |             |                                    |                             |
